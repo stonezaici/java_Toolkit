@@ -43,7 +43,7 @@ public class Time {
 				System.out.println(dt);
 			}
 		}
-		else System.out.println("∑«∑® ‰»Î");
+		else System.out.println("fei fa shu ru");
 		
 		
 		
