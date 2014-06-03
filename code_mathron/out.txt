@@ -1,0 +1,15 @@
+[2013-10-26 09:42:50.406] User U108941 logged in
+[2013-10-26 09:42:57.375] User U108941 view product [type:stock, code:0100.HK]
+[2013-10-26 09:43:13.120] New Order Request [REQ600097121] is sent by User U108941 to buy product [type:stock, code:0100.HK, quantity:500, price:1089]
+[2013-10-26 09:43:13.124] New Order [ORD131026000000001] is created as per request [REQ600097121]
+[2013-10-26 09:50:50.406] User U200172 logged in
+[2013-10-26 09:59:13.890] New Order Request [REQ600098000] is sent by User U200172 to sell product [type:stock, code:0500.HK, quantity:2000, price:120.5]
+[2013-10-26 09:59:13.890] New Order [ORD131026000000002] is created as per request [REQ600098000]
+[2013-10-26 10:21:13.710] Order [ORD131026000000001] is executed
+[2013-10-26 10:57:29.127] Cancel Order Request [REQ600098012] is sent by User U200172 to cancel order [ORD131026000000002]
+[2013-10-26 10:57:29.220] Order [ORD131026000000002] is cancelled by request [REQ600098012]
+[2013-10-26 13:45:14.240] New Order Request [REQ600098001] is sent by User U200172 to buy product [type:stock, code:0700.HK, quantity:1500, price:20.5]
+[2013-10-26 13:45:14.890] New Order [ORD131026000000002] is created as per request [REQ600098000]
+[2013-10-26 14:30:15.570] Order [ORD131026000000002] is executed
+[2013-10-26 15:12:30.106] User U108941 logged off
+[2013-10-26 13:46:30.106] User U200172 logged off
