@@ -14,6 +14,28 @@ import java.util.Random;
 
 public class VeDate {
  
+	
+	
+	public static void Date2string(){
+		String time = "2009-03-01_08:10:46:953"; 
+		String timeFormat = "yyyy-MM-dd_HH:mm:ss:SSS";       
+		SimpleDateFormat sdf = new SimpleDateFormat(timeFormat);       
+		Date date;
+		try {
+			date = sdf.parse(time);//String to Date
+			System.out.println(date);
+			String str = sdf.format(date); //Date to String
+			System.out.println(str);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+	
 	public static void String2Date(){
 		DateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");         
 	DateFormat format2 = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");         
@@ -543,7 +565,7 @@ public class VeDate {
  public static boolean RightDate(String date) {
 
   SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-  ;
+  
   if (date == null)
    return false;
   if (date.length() > 10) {
@@ -560,11 +582,6 @@ public class VeDate {
  }
 
  public static void main(String[] args) throws Exception {
-  try {
-   //System.out.print(Integer.valueOf(getTwoDay("2006-11-03 12:22:10", "2006-11-02 11:22:09")));
-  } catch (Exception e) {
-   throw new Exception();
-  }
-  //System.out.println("sss");
+	 Date2string();
  }
 }
